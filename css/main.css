@@ -1,0 +1,22 @@
+html, body {
+    padding:0;
+    margin:0;
+}
+.navigation {
+		cursor: pointer;
+		color: blue;
+}
+.navigation:hover {
+		background: blue;
+		color:white;
+}
+.wellapapper{
+    position: fixed;
+    background-image: url(../images/main-background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.div {
+    background: #ffffff;
+}
+
