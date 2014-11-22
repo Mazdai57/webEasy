@@ -1,6 +1,6 @@
 <nav><span id="first" class="navigation">первый блок</span> | <span id="second" class="navigation">второй блок</span> | <span id="third" class="navigation">третий блок</span> | <span id="fouth" class="navigation">четвёртый блок</span></nav>
 <div id="div1" style="height: 1000px;">
-test
+<?php include 'blocks/first_block.php';?>
 </div>
 <br/>
 <div id="div2" style="height: 1000px; width: 100px">
