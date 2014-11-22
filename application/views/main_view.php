@@ -14,7 +14,7 @@ test 3
 <div id="div4" style="height: 1000px; width:100px">
 test 4
 </div>
-<a href="javascript://" onclick="_open( '/XIvek/get_site', 300 , 300 );">
+<a href="javascript://" onclick="_open('<?php echo Route::getRoot().'get_site'?>', 300 , 300 );">
     Отправить сообщение
 </a>
 

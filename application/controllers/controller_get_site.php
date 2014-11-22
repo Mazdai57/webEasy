@@ -33,7 +33,7 @@ class Controller_Get_Site extends Controller {
                 }
             }
         }
-            $this->view->generate('get_site.php', 'template_view.php', $resultSend);
+            $this->getView()->generate('get_site.php', 'template_view.php', $resultSend);
     }
 }
 
